@@ -30,6 +30,7 @@ Due to the importance of understanding vibration in different structures and sys
 Here, we want to compute the first 6 natural frequencies and normal modes for a thin, homogeneous, isotropic, rectangular plate with clamps on 4 sides. We will compare our solutions with the analytical solution provided by Xing and Liu. The tutorial for this problem is located in ``tutorials\rectangular_thin_plate_vibration.ipynb``.
 
 The results for the lowest 6 natural frequencies and corresponding normal modes are displayed below.
+
 ![gif](tutorials/figures/plate_vibration.gif)
 
 ## Mesh Refinement <a name="refine"></a>
@@ -38,7 +39,9 @@ To perform mesh refinement, we used the codes given in the ``tutorials`` folder,
 
 Here, we plot the first natural dimensionless frequency against degrees of freedom. The exact solution for this problem is 5.49, and the FEA value from Xing and Liu is 5.54.
 
-![png](tutorials/figures/refinement.png)
+<p align = "center">
+<img alt="refinement" src="tutorials/figures/refinement.png" width="50%" />
+</p>
 
 For element order 1, the value is still converging as we increase the degrees of freedom. It's possible that the natural frequency is still converging with a higher mesh size. For element order 2, the computed value is about 5.54, which matches the FEA solution from the research paper. With more time and computational power, we would keep refining until we find a converged solution, even though our current solution might suffice.
 
