@@ -31,7 +31,9 @@ Here, we want to compute the first 6 natural frequencies and normal modes for a 
 
 The results for the lowest 6 natural frequencies and corresponding normal modes are displayed below.
 
-![gif](tutorials/figures/plate_vibration.gif)
+<p align = "center">
+<img alt="vibration" src="tutorials/figures/plate_vibration.gif" width="70%" />
+</p>
 
 ## Mesh Refinement <a name="refine"></a>
 
